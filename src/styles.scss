@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: ghostwhite;
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+
+.container{
+    margin-right: 48px;
+    
+}
+
+.flexrow{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 200px;
+}

@@ -1,0 +1,13 @@
+<div class="profile-row">
+    <img src={{img}}/>
+    <div>
+        <h3>{{name}}</h3>
+        
+        <div class="description">{{text}}</div>
+
+        <a *ngIf="canfollow==true" (click)="fs.addFriend(name,img);canfollow=false">Follow</a>
+        <!--TODO:
+            <a *ngIf="canfollow==false"(click)="fs.removeFriend(name,img);canfollow=true">Defollow</a>
+        -->
+    </div>
+</div>

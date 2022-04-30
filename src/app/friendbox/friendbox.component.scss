@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    background-color: white;
+    width: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+   
+    
+    .description{
+        margin-left: 16px;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+        text-align: center;
+
+    }
+
+    
+}
